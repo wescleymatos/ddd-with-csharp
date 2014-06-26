@@ -9,6 +9,6 @@ namespace CUL
     class Esfera
     {
         public int Id { get; set; }
-        public string descricao { get; set; }
+        public string Descricao { get; set; }
     }
 }

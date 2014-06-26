@@ -27,6 +27,6 @@ namespace CUL
         public string Cargo { get; set; }
         public string Funcao { get; set; }
         public string Email { get; set; }
-        public string DescricaoAtividadesDesempenha { get; set; }
+        public string DescricaoAtividadesProfissionais { get; set; }
     }
 }

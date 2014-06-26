@@ -9,7 +9,7 @@ namespace CUL
     class Orgao
     {
         public int Id { get; set; }
-        public Esfera esfera;
-        public string descricao { get; set; }
+        public Esfera Esfera;
+        public string Descricao { get; set; }
     }
 }

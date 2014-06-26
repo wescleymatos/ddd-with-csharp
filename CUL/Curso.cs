@@ -10,7 +10,7 @@ namespace CUL
     {
         public int Id { get; set; }
         public Escolaridade NivelEscolaridade;
-        public Categoria categoria;
+        public Categoria Categoria;
         public string Nome { get; set; }
         public string Tipo { get; set; }
         public int CargaHoraria { get; set; }
