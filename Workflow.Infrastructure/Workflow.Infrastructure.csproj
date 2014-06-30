@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configurations\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

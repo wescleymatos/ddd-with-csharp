@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Workflow.Domain.Contracts;
+using Workflow.Domain.Entities;
 using Workflow.Application.Contracts;
 
 namespace Workflow.Interface.Controllers
@@ -26,9 +26,10 @@ namespace Workflow.Interface.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(IEntity curso)
+        public ActionResult Create(Curso curso)
         {
             this._cursoServicoAplicacao.CadastrarDocumento(curso);
+            return View();
         }
 
     }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Workflow.Application.Contracts;
+using Workflow.Domain.Entities;
 using Workflow.Domain.Contracts;
 
 namespace Workflow.Application.Services
@@ -17,7 +18,7 @@ namespace Workflow.Application.Services
             this._cursoServicoDominio = cursoServicoDominio;
         }
 
-        public void CadastrarCurso(IEntity curso)
+        public void CadastrarCurso(Curso curso)
         {
             //AbrirTransacao();
             this._cursoServicoDominio.CadastrarDocumento(curso);

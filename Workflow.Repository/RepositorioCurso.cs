@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Workflow.Domain.Contracts;
 
-namespace Application
+namespace Workflow.Repository
 {
-    public class Class1
+    public class RepositorioCurso : IRepositorioCurso
     {
+
     }
 }

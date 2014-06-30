@@ -9,9 +9,9 @@ namespace Workflow.Domain.Contracts
 {
     interface IRepositorioCurso
     {
-        Curso BuscarPorId(int id);
-        List<Curso> BuscarTodos();
+        //Curso BuscarPorId(int id);
+        //List<Curso> BuscarTodos();
         void Salvar(Curso curso);
-        void Deletar(Curso curso);
+        //void Deletar(Curso curso);
     }
 }

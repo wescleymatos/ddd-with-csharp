@@ -1,5 +1,26 @@
-﻿@{
+﻿@model Workflow.Domain.Entities.Curso
+
+@{
     ViewBag.Title = "Create";
 }
 
 <h2>Create</h2>
+
+
+@using (Html.BeginForm())
+{
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary(true)
+
+  <fieldset>
+    <legend>Curso</legend>
+
+    <div class="editor-label">
+      @*@Html.LabelFor(model => model.Nome)*@
+    </div>
+
+    <p>
+      <input type="submit" value="Create" />
+    </p>
+  </fieldset>
+}
